@@ -2,6 +2,8 @@
 
 
 // Operador ternari
+
+// Exercici 1
 function potConduir() {
     let edad = parseInt(document.getElementById("edadForm").value);
     let contenedorResultado = document.getElementById("resultadoConduir");
@@ -9,6 +11,8 @@ function potConduir() {
     (edad >= 18) ? contenedorResultado.innerHTML = 'Pots conduir' : contenedorResultado.innerHTML = 'No pots conduir';
 } 
 
+
+// Exercici 2
 function comparacion() {
     let num1 = parseInt(document.getElementById("cifra1").value);
     let num2 = parseInt(document.getElementById("cifra2").value);

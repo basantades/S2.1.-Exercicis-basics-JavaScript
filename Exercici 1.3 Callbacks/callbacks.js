@@ -2,6 +2,9 @@
 
 
 // Callbacks
+
+// Exercici 1
+
 function processar(nombre, callback) {
     callback(nombre);
 } 
@@ -13,7 +16,7 @@ function mitad(nombre) {
 mitad(7, mitad);
 
 
-
+// Exercici 2
 
 function calculadora(num1, num2, callback) {
     callback(num1, num2);
@@ -30,6 +33,7 @@ calculadora(13, 9, suma);
 
 // Nivell 2
 
+// Exercici 3
 
 function esperarISaludar(nom, callback) {
     callback(nom);
@@ -42,6 +46,8 @@ function saludar(nom) {
 esperarISaludar("Alberto", saludar);
 
 
+
+// Exercici 4
 
 
 function processarElements(array, callback) {
