@@ -69,7 +69,13 @@ processarElements(arrayNumeros, dupllicar);
 // Nivell 3
 
 function processarCadena(array, callback) {
-    const arrayMayusculas = array.map(elemento => elemento.toUpperCase());
+    // const arrayMayusculas = array.map(elemento => elemento.toUpperCase());
+    const arrayMayusculas = [];
+
+    for (let i = 0; i < array.length; i++) {
+        arrayMayusculas.push(array[i].toUpperCase());
+    }
+
     callback(arrayMayusculas);
 } 
 

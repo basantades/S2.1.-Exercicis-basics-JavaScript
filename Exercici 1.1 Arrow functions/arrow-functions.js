@@ -33,7 +33,7 @@ const printNumbers = (numeros) => {
 }
 
 let numerosArray = [1, 5, 13, 43, 59];
-console.log(printNumbers(numerosArray));
+printNumbers(numerosArray);
 
 
 // Nivell 3

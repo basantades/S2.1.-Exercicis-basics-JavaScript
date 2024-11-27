@@ -21,7 +21,7 @@ for (const nom of noms) {
 
 let numeros = [1, 2, 3, 4, 5, 6];
 
-let nomerosPares = numeros.filter(elemento => elemento % 2 == 0);
+let nomerosPares = numeros.filter(elemento => elemento % 2 === 0);
 console.log(nomerosPares);
 
 // Nivell 2
