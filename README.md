@@ -34,7 +34,7 @@ La estructura de archivos y carpetas es la siguiente:
 ```
 
 - **`index.html`**: Contiene un índice principal con enlaces a los diferentes ejercicios.
-- **Carpeta `Ejercicios`**: Cada subcarpeta incluye un archivo `index.html` con el código correspondiente a cada ejercicio.
+- Cada subcarpeta incluye un archivo `index.html` con el código correspondiente a cada ejercicio.
 
 ## Tecnologías Utilizadas
 
